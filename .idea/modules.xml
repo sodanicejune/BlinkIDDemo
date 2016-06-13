@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDemo.iml" filepath="$PROJECT_DIR$/BlinkIDDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDemo/BlinkIDDemo-BlinkIDDemo.iml" filepath="$PROJECT_DIR$/BlinkIDDemo/BlinkIDDemo-BlinkIDDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDemoCustomSegmentScan/BlinkIDDemoCustomSegmentScan.iml" filepath="$PROJECT_DIR$/BlinkIDDemoCustomSegmentScan/BlinkIDDemoCustomSegmentScan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDemoCustomUI/BlinkIDDemoCustomUI.iml" filepath="$PROJECT_DIR$/BlinkIDDemoCustomUI/BlinkIDDemoCustomUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDetectorDemo/BlinkIDDetectorDemo.iml" filepath="$PROJECT_DIR$/BlinkIDDetectorDemo/BlinkIDDetectorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlinkIDDirectApiDemo/BlinkIDDirectApiDemo.iml" filepath="$PROJECT_DIR$/BlinkIDDirectApiDemo/BlinkIDDirectApiDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibResult/LibResult.iml" filepath="$PROJECT_DIR$/LibResult/LibResult.iml" />
+    </modules>
+  </component>
+</project>

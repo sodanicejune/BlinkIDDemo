@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_flashlight_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_flashlight_blink_ocr.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_help_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_help_blink_ocr.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_exit_selected_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_exit_selected_blink_ocr.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_exit_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_exit_blink_ocr.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/lightoff.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/lightoff.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/lighton.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/lighton.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_help_selected_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_help_selected_blink_ocr.png"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_flashlight_selected_blink_ocr.png",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable-ldpi-v4/icon_flashlight_selected_blink_ocr.png"
+    }
+]
