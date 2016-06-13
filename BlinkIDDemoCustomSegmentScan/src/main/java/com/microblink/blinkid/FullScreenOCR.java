@@ -375,9 +375,7 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
 
                 }
                 Log.i("OcrResult", ocrResult.toString());
-//                int thisYear = Calendar.getInstance().get(Calendar.YEAR);
-//                int age = 0 ;
-//                age = thisYear-Integer.valueOf(year);
+
 
 
 

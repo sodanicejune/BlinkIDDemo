@@ -66,11 +66,8 @@
         android:id="@+id/editSex"
         android:textSize="20dp"
         android:layout_alignWithParentIfMissing="false"
-        android:layout_above="@+id/textView2"
-        android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp" />
+        android:layout_alignTop="@+id/sex_Text"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -88,8 +85,30 @@
         android:text="Scan"
         android:id="@+id/button_scan"
         android:onClick="scanNext"
-        android:layout_below="@+id/editYear"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/button_compute"
+        android:layout_toRightOf="@+id/sex_Text"
+        android:layout_toEndOf="@+id/sex_Text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute "
+        android:id="@+id/button_compute"
+        android:onClick="compute"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/editYear"
+        android:layout_toEndOf="@+id/editYear"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/value"
+        android:layout_below="@+id/button_scan"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentBottom="true" />
 
 
 </RelativeLayout>
