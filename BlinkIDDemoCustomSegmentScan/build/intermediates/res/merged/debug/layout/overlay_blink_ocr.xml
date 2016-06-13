@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.microblink.ocr.RoiOverlayView
+        android:id="@+id/roi_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.microblink.ocr.RoiOverlayView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.29">
+
+            <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_bottom_BlinkOCRActivity_buttons"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnExitClicked"
+                android:src="@drawable/exit_blink_ocr"/>
+
+            <ImageButton
+                android:id="@+id/btnHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/margin_bottom_BlinkOCRActivity_buttons"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnHelpClicked"
+                android:src="@drawable/help_blink_ocr"
+                android:visibility="visible"/>
+
+            <ImageButton
+                android:id="@+id/btnFlash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_bottom_BlinkOCRActivity_buttons"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:layout_marginTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:background="#00000000"
+                android:onClick="onBtnFlashClicked"
+                android:src="@drawable/flashlight_blink_ocr"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+            <LinearLayout
+                android:layout_below="@id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.microblink.ocr.SlidingTabLayout
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:background="@android:color/white"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.51"
+            android:paddingBottom="@dimen/result_vertical_margin_blink_ocr"
+            android:paddingLeft="@dimen/result_horizontal_margin_blink_ocr"
+            android:paddingRight="@dimen/result_horizontal_margin_blink_ocr"
+            android:paddingTop="@dimen/result_vertical_margin_blink_ocr">
+
+            <RelativeLayout
+                android:id="@+id/layResult"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/result_background_blink_ocr"
+                android:paddingBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:paddingLeft="@dimen/activity_horizontal_margin_blink_ocr"
+                android:paddingRight="@dimen/activity_horizontal_margin_blink_ocr"
+                android:paddingTop="@dimen/activity_vertical_margin_blink_ocr"
+                android:visibility="invisible"
+                tools:visibility="visible">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/label_btn_accept">
+
+                    <com.microblink.ocr.FontFitTextView
+                        android:id="@+id/txtResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:backgroundTint="@color/text_white_blink_ocr"
+                        android:inputType="textMultiLine"
+                        android:text="123,54"
+                        android:textColor="@color/text_white_blink_ocr"
+                        android:textSize="@dimen/text_size_blink_ocr"/>
+
+                </android.support.v4.widget.NestedScrollView>
+
+                <TextView
+                    android:id="@+id/label_btn_accept"
+                    android:layout_above="@+id/btnAccept"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/mbAccept"
+                    android:visibility="gone"
+                    android:textSize="20sp"/>
+
+                <ImageButton
+                    android:id="@+id/btnAccept"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="onBtnAcceptClicked"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ok_big_blink_ocr"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/laySkip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin_blink_ocr"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/label_btn_skip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/btnSkip"
+                    android:gravity="center"
+                    android:text="@string/mbSkip"
+                    android:textSize="20sp"/>
+
+                <ImageButton
+                    android:id="@+id/btnSkip"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="onBtnSkipClicked"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/skip_blink_ocr"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</merge>

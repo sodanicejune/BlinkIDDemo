@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/flashlight.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/drawable/flashlight.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/exit_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/exit_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/microblink_button.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/microblink_button.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/ok_big.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/drawable/ok_big.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/help.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/drawable/help.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/exit.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/drawable/exit.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/flashlight_inverse.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/drawable/flashlight_inverse.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/help_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/help_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/ok_big_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/ok_big_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/flashlight_inverse_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/flashlight_inverse_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/flashlight_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/flashlight_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/skip_blink_ocr.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/skip_blink_ocr.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/rounded_border.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/2.6.0/res/drawable/rounded_border.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/sodajune/Downloads/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_small_material.xml"
+    }
+]
