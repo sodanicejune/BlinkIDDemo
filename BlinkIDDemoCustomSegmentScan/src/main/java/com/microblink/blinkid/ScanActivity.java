@@ -158,7 +158,7 @@ public class ScanActivity extends Activity implements CameraEventsListener, Scan
         // 13% of its height.
         // If you do not set this, OCR will be performed on full camera frame and this
         // will result in very poor performance.
-        mRecognizerView.setScanningRegion(new Rectangle(0.1f, 0.34f, 0.8f, 0.13f), false);
+        mRecognizerView.setScanningRegion(new Rectangle(0.2f, 0.6f, 0.8f, 0.2f), false);
 
         // instantiate the camera permission manager
         mCameraPermissionManager = new CameraPermissionManager(this);
@@ -277,7 +277,7 @@ public class ScanActivity extends Activity implements CameraEventsListener, Scan
         // and auto exposure measurements
         // we set the same rectangle as for scanning region
         // we also define that this metering area will follow device orientation changes
-        mRecognizerView.setMeteringAreas(new Rectangle[] {new Rectangle(0.1f, 0.34f, 0.8f, 0.13f)}, true);
+        mRecognizerView.setMeteringAreas(new Rectangle[] {new Rectangle(0.2f, 0.6f, 0.8f, 0.2f)}, true);
     }
 
     @Override

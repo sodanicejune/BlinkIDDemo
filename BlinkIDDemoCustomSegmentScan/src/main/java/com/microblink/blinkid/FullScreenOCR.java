@@ -8,7 +8,6 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import com.microblink.Config;
@@ -42,11 +41,10 @@ import com.microblink.view.recognition.RecognizerView;
 import com.microblink.view.recognition.ScanResultListener;
 import com.microblink.view.viewfinder.PointSetView;
 
-import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class FullScreenOCR extends Activity implements MetadataListener, CameraEventsListener, ScanResultListener {
+public class FullScreenOCR extends Activity implements MetadataListener, CameraEventsListener, ScanResultListener{
 
     /** RecognizerView is the built-in view that controls camera and recognition */
     private RecognizerView mRecognizerView;
@@ -375,26 +373,16 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
 
                 }
                 Log.i("OcrResult", ocrResult.toString());
-
-
-
-
-
                 Intent in = new Intent();
                 in.putExtra("Sex",sex);
                 in.putExtra("Year",year);
-
-
-
-
-
 
 
                 if(count==2){
 
                     setResult(RESULT_OK,in);
                     finish();
-
+//
                     }
 
                 }
@@ -405,5 +393,7 @@ public class FullScreenOCR extends Activity implements MetadataListener, CameraE
         // results from previous scan.
         mRecognizerView.resetRecognitionState();
     }
+
+
 
 }
