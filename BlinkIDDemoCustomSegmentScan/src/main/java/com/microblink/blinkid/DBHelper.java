@@ -5,10 +5,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Switch;
+
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by sodajune on 6/20/16.
@@ -20,17 +19,17 @@ public class DBHelper extends SQLiteOpenHelper {
     public static final String DBLOCATION = "/data/data/com.microblink.blinkid/databases/";
     private Context mContext;
     private SQLiteDatabase mDatabase;
-    private Value value;
     private double data;
 
 
 
-    private String sa;
+
     private String pr;
     private String dr;
     private String pmr;
     private String sur;
-    private int mony;
+    private double sa;
+
 
     public DBHelper(Context context) {
         super(context, DBNAME, null, 1);
@@ -86,6 +85,7 @@ public class DBHelper extends SQLiteOpenHelper {
         pmr=valueList.get(3);
         sur = valueList.get(4);
 
+        sa = 500000.00;
 
         Log.e("pr",pr);
         Log.e("dr",dr);
@@ -96,10 +96,12 @@ public class DBHelper extends SQLiteOpenHelper {
         if(sur.equalsIgnoreCase("data.sa * (data.premium_rate - data.discount_rate) / 100000 * data.payment_mode_rate")){
 
 
-            data = 500000.00 * (Double.parseDouble(pr) - Double.parseDouble(dr)) / 100000.00 * Double.parseDouble(pmr);
+            data =  sa * (Double.parseDouble(pr) - Double.parseDouble(dr)) / 100000.00 * Double.parseDouble(pmr);
 
             //Integer.valueOf(dr)  Integer.valueOf(pmr)
             Log.e("wtf",data+"");
+        }else if(sur.equalsIgnoreCase("data.premium_rate * data.payment_mode_rate")){
+            data = Double.parseDouble(pr) * Double.parseDouble(pmr);
         }
 
 

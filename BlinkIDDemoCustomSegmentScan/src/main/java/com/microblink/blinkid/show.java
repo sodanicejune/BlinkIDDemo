@@ -65,7 +65,7 @@ public class show extends Activity{
 
 
 
-        value.setText("Hello "+mValueList+" Bath");
+        value.setText("Premium "+mValueList+" Bath");
 
 
     }
