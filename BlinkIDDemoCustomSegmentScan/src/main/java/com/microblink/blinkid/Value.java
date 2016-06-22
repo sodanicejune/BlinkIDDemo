@@ -5,28 +5,28 @@ package com.microblink.blinkid;
  */
 public class Value {
 
-    private int id;
-
-
-
-    private String number;
-    private String name;
-
-    public Value(String a) {
-        this.number = number;
-        this.name = a;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setSa(String sa) {
+        this.sa = sa;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPr(String pr) {
+        this.pr = pr;
+    }
+
+    public void setDr(String dr) {
+        this.dr = dr;
+    }
+
+    public void setPmr(String pmr) {
+        this.pmr = pmr;
+    }
+
+    public void setSur(String sur) {
+        this.sur = sur;
     }
 
     public int getId() {
@@ -34,13 +34,43 @@ public class Value {
         return id;
     }
 
-    public String getNumber() {
-        return number;
+    public String getSa() {
+        return sa;
     }
 
-    public String getName() {
-        return name;
+    public String getPr() {
+        return pr;
     }
+
+    public String getDr() {
+        return dr;
+    }
+
+    public String getPmr() {
+        return pmr;
+    }
+
+    public String getSur() {
+        return sur;
+    }
+
+    public Value(String sa, String pr, String dr, String pmr, String sur) {
+
+        this.sa = sa;
+        this.pr = pr;
+        this.dr = dr;
+        this.pmr = pmr;
+        this.sur = sur;
+    }
+
+    private int id;
+    private String sa;
+    private String pr;
+    private String dr;
+    private String pmr;
+    private String sur;
+
+
 
 
 }

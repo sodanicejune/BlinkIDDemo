@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -26,10 +27,12 @@ public class show extends Activity{
 
 
     private DBHelper mDBHelper ;
-    private String mValueList;
+    private double mValueList;
+    private ArrayList<String> list;
 
     private String str_age  ;
     private String str_sex;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,10 +58,14 @@ public class show extends Activity{
 
 
         mValueList = mDBHelper.ComputeData("F","22");
-//        Log.e("DB---",mDBHelper.ComputeData("F","22")+"");
-//        value.setText("LOL");
+        //mValueList = mDBHelper.ComputeData(str_sex,str_age);
+//
 
-        value.setText(mValueList);
+
+
+
+
+        value.setText("Hello "+mValueList+" Bath");
 
 
     }
@@ -114,8 +121,8 @@ public class show extends Activity{
                 result2 = String.valueOf(age);
                 str_sex = result;
                 str_age = result2;
-                sex.setText("F");
-                year.setText("22");
+                sex.setText(result);
+                year.setText(result2);
             }
             }
 
